@@ -1,0 +1,31 @@
+{
+  "name": "shrekconnect",
+  "version": "1.0.0",
+  "description": "An app which connects people looking for a fellow adventurer with characters from the Shrek Cinematic Universe.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    ""
+  },
+  "author": "uxtothemax",
+  "license": "MIT",
+  "keywords": [
+    "shrek",
+    "scu",
+    "matching",
+    "connect",
+    "connecting",
+    "dating",
+    "adventure"
+  ],
+  "repository": "uxtothemax/shrekconnect",
+  "bugs": "https://github.com/uxtothemax/shrekconnect/issues",
+  "dependencies": {
+    "camelcase": "^6.0.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
