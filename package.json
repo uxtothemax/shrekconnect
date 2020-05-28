@@ -4,8 +4,7 @@
   "description": "An app which connects people looking for a fellow adventurer with characters from the Shrek Cinematic Universe.",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js",
-    ""
+    "test": "nodemon index.js"
   },
   "author": "uxtothemax",
   "license": "MIT",

@@ -1,0 +1,145 @@
+/*******************************************************************
+                              GENERAL
+******************************************************************/
+
+/*START FONTS*/
+
+@font-face {
+  font-family: 'RomanUncialModern';
+  src: url('../fonts/RomanUncialModern.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Shrek';
+  src: url('../fonts/SHREK_.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'ChristensenCaps';
+  src: url('../fonts/ChristensenCaps.ttf') format('truetype');
+}
+
+/*END FONTS*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+
+body {
+  margin: 20px;
+
+  background-color: #F4EAE0;
+  font-family: 'RomanUncialModern', serif;
+  color: #2B3274;
+}
+
+main {
+  margin: 40px auto;
+}
+
+h1 {
+  font-size: 16px;
+  line-height: 18px;
+
+  font-weight: 400;
+}
+
+p {
+  text-align: center;
+
+  color: #A16838;
+}
+
+a {
+  position: absolute;
+  bottom: 20px;
+
+  padding: 14px 40px;
+  border-radius: 10px;
+
+  font-family: 'Shrek', sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+
+  -moz-box-shadow: 3px 3px 3px rgba(67,87,7,.20);
+  -webkit-box-shadow: 3px 3px 3px rgba(67,87,7,.20);
+  box-shadow: 3px 3px 3px rgba(67,87,7,.20);
+}
+
+/*******************************************************************
+                              HEADER
+******************************************************************/
+
+/*PROGRESS BAR*/
+
+progress {
+  width: 100%;
+}
+
+/*******************************************************************
+                              MAIN
+******************************************************************/
+
+h1 {
+  max-width: 255px;
+  margin: 40px auto;
+  padding-left: 20px;
+}
+
+h1::first-letter {
+  margin: 40px auto;
+
+  font-family: 'ChristensenCaps', 'RomanUncialModern', serif;
+  font-size: 50px;
+  color: #B40E02;
+}
+
+/*START BUTTONS*/
+
+a:first-of-type {
+  left: 20px;
+
+  background-color: #EED6B0;
+  color: #435707;
+}
+
+a:first-of-type:active {
+  background-color: #E6C895;
+}
+
+a:last-of-type {
+  right: 20px;
+
+  background-color: #D5DE2E;
+  color: #512001;
+}
+
+a:last-of-type:active {
+  background-color: #C4D300;
+}
+
+/*END BUTTONS*/
+
+/*START FORM*/
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+
+  border: 0;
+}
+
+label {
+  font-size: 24px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+input {
+  display: none;
+}
+
+/*END FORM*/
+
+/*Author: uxtothemax*/
